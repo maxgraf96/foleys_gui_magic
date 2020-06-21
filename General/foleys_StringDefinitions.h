@@ -157,6 +157,9 @@ namespace IDs
     static juce::Identifier height      { "height" };
 
     static juce::Identifier lastSize    { "last-size" };
+
+    // My custom parameters
+    static juce::Identifier featureSlotParameter    { "featureSlotParameter" };
 }
 
 } // namespace foleys
