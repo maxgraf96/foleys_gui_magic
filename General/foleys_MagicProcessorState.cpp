@@ -158,6 +158,8 @@ void MagicProcessorState::setStateInformation (const void* data, int sizeInBytes
     {
         int width, height;
 
+        const juce::MessageManagerLock mmLock;
+
         if (getLastEditorSize (width, height))
             editor->setSize (width, height);
     }
